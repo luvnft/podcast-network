@@ -13,7 +13,7 @@ export function ThemeToggle() {
     >
       <Sun className="mb-2 m-auto size-5 text-black dark:text-white dark:hidden" />
       <Moon className="mb-2 m-auto hidden size-5  dark:block" />
-      <div className="text-sm m-auto">Theme</div>
+      <div className="text-sm m-auto">Mood</div>
     </button>
   );
 }
