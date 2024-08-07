@@ -1,13 +1,13 @@
 import { CirclePlayIcon } from "lucide-react";
 import Link from "next/link";
-import { GitHubLink } from "@/components/GitHubLink";
+import GitHubLink from "@/components/GitHubLink"; // Changed to default import
 import { cosmic } from "@/cosmic/client";
 
 export async function TopNav() {
   const { object: globalSettings } = await cosmic.objects
     .findOne({
       type: "settings",
-      slut: "settings",
+      slug: "settings", // Corrected 'slut' to 'slug'
     })
     .props("metadata")
     .depth(1);
@@ -24,3 +24,4 @@ export async function TopNav() {
     </div>
   );
 }
+
