@@ -2,7 +2,7 @@ export function GitHubLink() {
   return (
     <a
       className="absolute top-[22px] right-4 z-10"
-      href="https://unisat.io/brc20/L$VE"
+      href="https://linktr.ee/blkluvorg"
       target="_blank"
     >
 <svg
