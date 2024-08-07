@@ -1,4 +1,4 @@
-import { CirclePlayIcon } from "lucide-react";
+
 import Link from "next/link";
 import { GitHubLink } from "@/components/GitHubLink";
 import { cosmic } from "@/cosmic/client";
