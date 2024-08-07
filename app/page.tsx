@@ -19,7 +19,7 @@ export default async function Home() {
           />
         </Suspense>
         <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-tighter text-black dark:text-white md:text-4xl">
-          Today{`'`}s Picks
+          Viewers L$VE
         </h1>
         <Suspense fallback={<Loader />}>
           <VideoList
