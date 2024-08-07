@@ -1,6 +1,5 @@
 import { CirclePlayIcon } from "lucide-react";
-import Link from "next/link";
-import GitHubLink from "@/components/GitHubLink"; // Changed to default import
+import Link from "next/link";// Changed to default import
 import { cosmic } from "@/cosmic/client";
 
 export async function TopNav() {
